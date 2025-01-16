@@ -10,7 +10,13 @@
 	padding: 0;
 }
 
-html,
 body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.6rem;
+}
+
+html {
 	height: 100%;
+	font-size: 62.5%;
+	scroll-behavior: smooth;
 }
