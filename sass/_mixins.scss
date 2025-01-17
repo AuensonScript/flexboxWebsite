@@ -1,4 +1,5 @@
 // używane jak mielibyśmy użyć w wielu miejscach
+@use "./colors";
 
 @mixin burgerBtn {
 	position: absolute;
