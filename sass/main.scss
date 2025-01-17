@@ -1,6 +1,6 @@
-@use "./colors" as colors;
-@use "./components" as components;
-@use "./mixins" as mixins;
+@use "./colors";
+@use "./components";
+@use "./mixins";
 
 *,
 *::after,
@@ -65,4 +65,19 @@ html {
 			transition-delay: 0.1s;
 		}
 	}
+}
+
+// HEADER
+
+.header {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 2em;
+	height: 75vh;
+	text-align: center;
+	color: $pure-white;
+	@include heroImages("../img/header-mobile.jpg");
 }
